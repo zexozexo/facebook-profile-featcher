@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Facebook Profile Featcher</title>
+  <!-- tailwindcss cdn -->
+  <script type="text/javascript" src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-screen h-screen bg-neutral-100">
+  
+  <!-- container -->
+  <div class="p-5 flex flex-col gap-5">
+    <!-- input -->
+    <div class="p-5 bg-white flex flex-col gap-5 border-b border-b-neutral-300 rounded">
+      <input class="p-3 bg-transparent border border-neutral-300 outline-none rounded" type="text" id="accountLink" placeholder="Enter account link">
+      <button class="text-white p-3 bg-blue-500 rounded cursor-pointer" type="button" onclick="getUserProfile();">Get user profile</button>
+    </div>
+    <!-- result -->
+    <div class="p-5 bg-white border-b border-b-neutral-300 rounded hidden" id="resultContent"></div>
+  </div>
+  
+  <!-- script -->
+  <script type="text/javascript" src="script.js"></script>
+  
+</body>
+</html>
