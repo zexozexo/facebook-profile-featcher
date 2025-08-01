@@ -29,7 +29,7 @@ function getUserProfile() {
                 <h4>Facebook</h4>
               </div>
             </div>
-            <a href="${accountLink}">
+            <a href="${accountLink.value}">
               <button class="text-white py-1 px-3 bg-blue-500 rounded" type="button">Visit</button>
             </a>
           </div>
